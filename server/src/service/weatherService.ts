@@ -32,6 +32,7 @@ interface LocationApiResponse {
 // TODO: Complete the WeatherService class
 class WeatherService {
   // TODO: Define the baseURL, API key, and city name properties
+  // http://api.openweathermap.org/geo/1.0/direct?q=Minneapolis&limit=5&appid=42a818799edaf4fb33ab8e27bde181da we know this works
   private baseURL = 'https://api.openweathermap.org/';
   private apiKey = '42a818799edaf4fb33ab8e27bde181da';
   private units = 'metric'; // Add units parameter for Celsius
